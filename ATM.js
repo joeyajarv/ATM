@@ -212,5 +212,4 @@ function writeUserData() {
     let result = data.replace(new RegExp('^' + userData.slice(0,4) + '.*'), userData);
     console.log('writing: ' + result);
     IO.writeFileSync('data.csv', result, 'utf8');
-
 }
