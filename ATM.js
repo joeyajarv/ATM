@@ -62,7 +62,7 @@ function populateAccounts() {
     }
 }
 
-function insertCardNumber() {
+function insertCardNumber() { //Couldn't wrap with "Number()" on line 69 without overloading & breaking program
     const CARD_NUMBER = 0;
     let found = 0;
     while (cardNumber == null || !/^[0-9]{4}$/.test(cardNumber)) {
@@ -79,7 +79,7 @@ function insertCardNumber() {
     }
 }
 
-function setPIN() {
+function setPIN() { //Couldn't wrap with "Number()" on line 86 without overloading & subsequently breaking program
     const PIN_NUMBER = 1;
     let found = 0;
     while (pinNumber == null || !/^[0-9]{4}$/.test(pinNumber)) {
