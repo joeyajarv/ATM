@@ -126,7 +126,6 @@ function displayBalance() {
     } else {
         console.log(`\n Your checking balance is equal to ${currentUser[CHECKING_BALANCE]} dollars. \n Your savings balance is equal to ${currentUser[SAVINGS_BALANCE]} dollars.`);
     }
-
 }
 
 function withdraw() {
